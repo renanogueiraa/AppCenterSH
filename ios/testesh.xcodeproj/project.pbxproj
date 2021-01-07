@@ -194,7 +194,6 @@
 				3E0A5DF30B652BFC5F452219 /* Pods-testesh-tvOSTests.debug.xcconfig */,
 				1C2BEC83F3C6C3B4BADA4E44 /* Pods-testesh-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -659,6 +658,7 @@
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = testesh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -681,6 +681,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = testesh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
